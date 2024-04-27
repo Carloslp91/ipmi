@@ -1,8 +1,14 @@
+//Carlos Acuña
+//com 4
+
+PImage IMAGEN;
 void setup(){
   size(800,400);
+IMAGEN=loadImage("armas.PNG (2)");
 }
   void draw(){
     background(255,0);
+image(IMAGEN,20,0);
     println(mouseX,mouseY);
     stroke(80);
     

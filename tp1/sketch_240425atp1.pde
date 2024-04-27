@@ -4,7 +4,7 @@
 PImage IMAGEN;
 void setup(){
   size(800,400);
-IMAGEN=loadImage("armas.PNG (2)");
+IMAGEN=loadImage("armas.PNG.png)");
 }
   void draw(){
     background(255,0);
